@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  username: Clark
+  email: clark.ken@superman.com
+  password_digest: krypton
+
+two:
+  username: Peter
+  email: peter.parker@spiderman.com
+  password_digest: arania
