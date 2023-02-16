@@ -3,7 +3,7 @@
 one:
   username: Clark
   email: clark.ken@superman.com
-  password_digest: krypton
+  password_digest: <%= BCrypt::Password.create('kripton') %>
 
 two:
   username: Peter
