@@ -4,11 +4,7 @@ class MockController
 
 	def initialize
 		mock_request = Struct.new(:headers)
-		pp '===================='			
-		pp mock_request
 		self.request = mock_request.new({})
-		pp '===================='	
-		pp self.request
 	end
 end
 
